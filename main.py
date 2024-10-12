@@ -1,1 +1,6 @@
-print('Hello world')
+print('Добро пожаловать в калькулятор')
+action = input('Введите действие: *, -, +, /')
+x = int(input('Введите первое число:'))
+y = int(input('Введите второе число:'))
+if action == '*':
+    print('Ваш пример:', x, action, y)
