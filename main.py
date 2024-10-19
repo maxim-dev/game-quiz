@@ -1,6 +1,16 @@
-print('Добро пожаловать в калькулятор')
+print('Добро пожаловать в калькулятор:')
+x = float(input('Введите первое число:'))
 action = input('Введите действие: *, -, +, /')
-x = int(input('Введите первое число:'))
-y = int(input('Введите второе число:'))
+y = float(input('Введите второе число:'))
+print()
+
+print('Ваш пример:', x, action, y)
+
 if action == '*':
-    print('Ваш пример:', x, action, y)
+    print('Ответ:',x * y)
+elif action == '-':
+    print('Ответ:',x - y)
+elif action == '+':
+    print('Ответ:',x + y)
+elif action == '/':
+    print('Ответ:',x / y)
